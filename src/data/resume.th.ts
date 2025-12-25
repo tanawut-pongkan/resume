@@ -1,13 +1,13 @@
-import profileImage from '@/assets/profile.svg'
+import profileImage from '@/assets/profile.jpg'
 import type { ResumeData } from './types'
 
 export const resumeTh: ResumeData = {
   meta: {
     locale: 'th',
-    title: 'ธนาวุฒิ พงษ์กาญจน์ · ผู้จัดการโครงการไอที',
+    title: 'ธนาวุฒิ ป้องกัน · ผู้จัดการโครงการไอที',
     description: 'ผู้จัดการโครงการไอทีที่เชี่ยวชาญการวิเคราะห์ความต้องการ สื่อสารกับลูกค้า และประสานงานทีมพัฒนาให้ส่งมอบได้ตามแผน',
-    keywords: ['ธนาวุฒิ พงษ์กาญจน์', 'IT Project Manager', 'System Analyst', 'Business Analyst', 'เรซูเม่'],
-    ogTitle: 'ธนาวุฒิ พงษ์กาญจน์ · IT Project Manager',
+    keywords: ['ธนาวุฒิ ป้องกัน', 'IT Project Manager', 'System Analyst', 'Business Analyst', 'เรซูเม่'],
+    ogTitle: 'ธนาวุฒิ ป้องกัน · IT Project Manager',
     ogDescription: 'ผู้นำโครงการที่แปลงความต้องการลูกค้าเป็นแผนงานและประสานงานทีมพัฒนา ทดสอบ และนำเสนอผลได้อย่างชัดเจน',
   },
   nav: [
@@ -19,7 +19,7 @@ export const resumeTh: ResumeData = {
   ],
   hero: {
     greeting: 'IT Project Manager',
-    name: 'ธนาวุฒิ พงษ์กาญจน์',
+    name: 'ธนาวุฒิ ป้องกัน',
     headline: 'จัดการโครงการให้เดินตามแผน สื่อสารเข้าใจง่าย',
     summary: [
       'ผสมผสานบทบาท Project / System Analyst แปลงความต้องการลูกค้าเป็น requirement ชัดเจน',
@@ -32,7 +32,7 @@ export const resumeTh: ResumeData = {
     ],
     photo: {
       src: profileImage,
-      alt: 'ภาพถ่ายธนาวุฒิ พงษ์กาญจน์ สวมเบลเซอร์',
+      alt: 'ภาพถ่ายธนาวุฒิ ป้องกัน สวมเบลเซอร์',
     },
     actions: [
       {
@@ -50,7 +50,7 @@ export const resumeTh: ResumeData = {
       {
         id: 'contact',
         label: 'ส่งอีเมลถึงธนาวุฒิ',
-        ariaLabel: 'ส่งอีเมลถึงธนาวุฒิ พงษ์กาญจน์',
+        ariaLabel: 'ส่งอีเมลถึงธนาวุฒิ ป้องกัน',
         variant: 'ghost',
         href: 'mailto:tanawut.pongkan@gmail.com',
       },
@@ -334,7 +334,7 @@ export const resumeTh: ResumeData = {
   footer: {
     lastUpdatedLabel: 'อัปเดตล่าสุด:',
     lastUpdatedValue: 'มกราคม 2025',
-    copyright: '© 2025 ธนาวุฒิ พงษ์กาญจน์ สงวนลิขสิทธิ์',
+    copyright: '© 2025 ธนาวุฒิ ป้องกัน สงวนลิขสิทธิ์',
   },
   ui: {
     languageToggle: {

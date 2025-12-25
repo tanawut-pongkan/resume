@@ -1,4 +1,4 @@
-import profileImage from '@/assets/profile.svg'
+import profileImage from '@/assets/profile.jpg'
 import type { ResumeData } from './types'
 
 export const resumeEn: ResumeData = {
