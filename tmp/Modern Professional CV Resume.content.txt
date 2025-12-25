@@ -1,0 +1,84 @@
+TANAW UT
+PONGKAN
+IT Project Manager
+C o n ta c t
+A b o u t M e
+S k ills
+Mueang Pathum Thani, Pathum Thani,
+12000
+tanawut.pongkan@gmail.com
++6663-446-9426
+IT Project Manager with 9+ years of
+experience in Agile Project
+Management, Software Development,
+and Digital Transformation. Proven
+ability to lead cross-functional teams,
+optimize business processes, and
+implement cutting-edge
+technologies to drive efficiency and
+success.
+ Head Project: Android Application for Robot Control
+ Developed an Android application for wireless robot control.
+ Designed UI & Control Algorithm to ensure real-world usability.
+2010 - 2014
+B ach elor of C om p u ter En g in eerin g
+B angkok U niversity
+E d u c a tio n
+Planned and managed IT Procurement, Budgeting & Risk
+Management.
+Developed CIS, e-Memo & Home Automation Systems.
+Implemented Agile Scrum & ClickUp to enhance project
+workflows.
+Collaborated with business users and stakeholders to gather
+and define business requirements.
+Designed system architecture, database schema, and API
+integration strategies.
+Designed and implemented Cross Selling Web, IDP Web, and
+SSO Login System for seamless integration with internal
+systems.
+Designed and analyzed business requirement-based systems to
+meet corporate needs.
+Created flowcharts, UML diagrams, and test cases to support
+development teams.
+Diagnosed and resolved legacy system issues, improving
+stability and usability.
+Gathered system requirements from clients and business users.
+Designed database schemas, API integrations, and UI/UX
+wireframes for web and mobile applications.
+Created mockups and prototypes for client approval before
+development.
+Developed Web & Android Applications for various industries.
+Key projects include HR-System, E-Assessment, E-Library,
+Theme Park Ticketing System, R-System.
+Built Backend APIs & Windows Applications for internal
+operations.
+Developed Excel Reports, Crystal Reports, and Power BI Reports
+for executive data insights.
+Provided Go-Live Support and user training for new system
+implementations.
+Mar 2022 - Present
+Jun 2019 - Feb 2022
+Oct 2018 - May 2019
+Apr 2016 - Sep 2018
+IT P roject M an ag er 
+Sen ior D evelop er &  System  A n alyst
+D evelop er &  System  A n alyst 
+D evelop er &  System  A n alyst
+AESTIM A ASSET CO M PAN Y LIM ITED
+CH U B B  IN SU RAN CE (TH AILAN D )
+VIRIYAH  IN SU RAN CE
+V W ISE IT CO M PAN Y LIM ITED
+E x p e rie n c e
+Agile & Scrum (ClickUp, Jira, Trello)
+IT Strategy, Procurement & Risk
+Management
+Software Development (C#,
+ASP.NET, SQL, React, Vue.js,
+Docker)
+Data Analytics & Automation (
+Looker Studio)
+Cloud Computing & API
+Integration
+Leadership, Problem-Solving &
+Stakeholder Communication
+----------------Page (0) Break----------------
