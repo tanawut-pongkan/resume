@@ -5,10 +5,12 @@ export const resumeTh: ResumeData = {
   meta: {
     locale: 'th',
     title: 'ธนาวุฒิ ป้องกัน · ผู้จัดการโครงการไอที',
-    description: 'ผู้จัดการโครงการไอทีที่เชี่ยวชาญการวิเคราะห์ความต้องการ สื่อสารกับลูกค้า และประสานงานทีมพัฒนาให้ส่งมอบได้ตามแผน',
-    keywords: ['ธนาวุฒิ ป้องกัน', 'IT Project Manager', 'System Analyst', 'Business Analyst', 'เรซูเม่'],
+    description:
+      'ผู้จัดการโครงการไอทีประสบการณ์กว่า 9 ปี ดูแล Agile Project Management การพัฒนาซอฟต์แวร์ และ Digital Transformation',
+    keywords: ['ธนาวุฒิ ป้องกัน', 'IT Project Manager', 'Agile', 'Digital Transformation', 'เรซูเม่'],
     ogTitle: 'ธนาวุฒิ ป้องกัน · IT Project Manager',
-    ogDescription: 'ผู้นำโครงการที่แปลงความต้องการลูกค้าเป็นแผนงานและประสานงานทีมพัฒนา ทดสอบ และนำเสนอผลได้อย่างชัดเจน',
+    ogDescription:
+      'ผู้นำโครงการที่มีประสบการณ์มากกว่า 9 ปี ประสานทีมข้ามสายงาน ปรับปรุงกระบวนการ และนำเทคโนโลยีใหม่สู่การทำงาน',
   },
   nav: [
     { id: 'personal', label: 'ข้อมูลส่วนตัว' },
@@ -20,15 +22,17 @@ export const resumeTh: ResumeData = {
   hero: {
     greeting: 'IT Project Manager',
     name: 'ธนาวุฒิ ป้องกัน',
-    headline: 'จัดการโครงการให้เดินตามแผน สื่อสารเข้าใจง่าย',
+    headline: 'บริหาร Agile โค้ชทีมพัฒนา และขับเคลื่อน Digital Transformation',
     summary: [
-      'ผสมผสานบทบาท Project / System Analyst แปลงความต้องการลูกค้าเป็น requirement ชัดเจน',
-      'มั่นใจเรื่อง timeline และการนำเสนอผลงาน ประสานงาน dev/QA ให้ส่งมอบได้ตรงเวลา',
+      'ผู้จัดการโครงการไอทีประสบการณ์กว่า 9 ปี ทั้ง Agile Project Management การพัฒนาซอฟต์แวร์ และ Digital Transformation.',
+      'เชี่ยวชาญการนำทีมข้ามสายงาน ปรับกระบวนการ และใช้เทคโนโลยีทันสมัยเพื่อเพิ่มประสิทธิภาพงาน.',
     ],
+    about:
+      'ผู้จัดการโครงการไอทีที่มีประสบการณ์มากกว่า 9 ปีใน Agile Project Management การพัฒนาซอฟต์แวร์ และ Digital Transformation สามารถนำทีมข้ามสายงาน ปรับปรุงกระบวนการธุรกิจ และประยุกต์ใช้เทคโนโลยีใหม่เพื่อเพิ่มประสิทธิภาพและความสำเร็จขององค์กร.',
     quickFacts: [
       { label: 'ที่ตั้ง', value: 'ปทุมธานี · ทำงาน Hybrid/Onsite', icon: 'location' },
-      { label: 'ประสบการณ์', value: '12+ ปี ด้านวิเคราะห์และส่งมอบระบบ', icon: 'calendar' },
-      { label: 'โฟกัส', value: 'ประสานงานโครงการและวิเคราะห์ระบบ', icon: 'briefcase' },
+      { label: 'ประสบการณ์', value: '9+ ปี ด้าน Agile และการส่งมอบโครงการ', icon: 'calendar' },
+      { label: 'โฟกัส', value: 'Digital Transformation และปรับปรุงกระบวนการ', icon: 'briefcase' },
     ],
     photo: {
       src: profileImage,

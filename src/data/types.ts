@@ -46,6 +46,7 @@ export interface HeroContent {
   name: string
   headline: string
   summary: string[]
+  about?: string
   quickFacts: QuickFact[]
   actions: HeroAction[]
   socials: SocialLink[]

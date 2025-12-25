@@ -6,11 +6,11 @@ export const resumeEn: ResumeData = {
     locale: 'en',
     title: 'Tanawut Pongkan · IT Project Manager',
     description:
-      'IT Project Manager experienced in analysis, delivery coordination, and coaching development teams to ship reliable systems.',
-    keywords: ['Tanawut Pongkan', 'IT Project Manager', 'System Analyst', 'Business Analyst', 'Resume'],
+      'IT Project Manager with 9+ years leading agile projects, aligning cross-functional teams, and driving digital transformation.',
+    keywords: ['Tanawut Pongkan', 'IT Project Manager', 'Agile Delivery', 'Digital Transformation', 'Resume'],
     ogTitle: 'Tanawut Pongkan · IT Project Manager',
     ogDescription:
-      'IT project leader skilled in requirements analysis, agile delivery, and coordinating developers, QA, and clients.',
+      'IT project leader with 9+ years of agile delivery, business process optimisation, and cross-functional team guidance.',
   },
   nav: [
     { id: 'personal', label: 'Personal Details' },
@@ -22,15 +22,17 @@ export const resumeEn: ResumeData = {
   hero: {
     greeting: 'IT Project Manager',
     name: 'Tanawut Pongkan',
-    headline: 'Bringing clarity to projects and teams',
+    headline: 'Agile delivery, digital transformation, and team leadership',
     summary: [
-      'Project and system analyst who turns client needs into clear requirements, plans, and checkpoints.',
-      'Comfortable presenting progress, validating timelines, and coordinating developers to keep delivery on track.',
+      'IT Project Manager with 9+ years leading Agile projects, software development, and digital transformation initiatives.',
+      'Proven ability to guide cross-functional teams, streamline processes, and apply modern technology to improve efficiency.',
     ],
+    about:
+      'IT Project Manager with 9+ years of experience in Agile project management, software development, and digital transformation. Proven ability to lead cross-functional teams, optimize business processes, and implement cutting-edge technologies to drive efficiency and success.',
     quickFacts: [
       { label: 'Location', value: 'Pathum Thani · Hybrid/Onsite', icon: 'location' },
-      { label: 'Experience', value: '12+ years across analysis and delivery', icon: 'calendar' },
-      { label: 'Focus', value: 'Project coordination & system analysis', icon: 'briefcase' },
+      { label: 'Experience', value: '9+ years across agile delivery', icon: 'calendar' },
+      { label: 'Focus', value: 'Digital transformation & process optimisation', icon: 'briefcase' },
     ],
     photo: {
       src: profileImage,
