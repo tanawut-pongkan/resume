@@ -19,7 +19,7 @@ export function PersonalDetailsSection({ data, copy }: PersonalDetailsSectionPro
     try {
       await navigator.clipboard.writeText(value)
       notify({ title: data.label, description: successMessage, variant: 'success' })
-    } catch (error) {
+    } catch {
       notify({ title: data.label, description: copy.error, variant: 'warning' })
     }
   }

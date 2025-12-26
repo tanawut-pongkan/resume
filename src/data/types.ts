@@ -46,6 +46,7 @@ export interface HeroContent {
   name: string
   headline: string
   summary: string[]
+  about?: string
   quickFacts: QuickFact[]
   actions: HeroAction[]
   socials: SocialLink[]
@@ -226,6 +227,8 @@ export interface ContactSection {
   label: string
   summary: string
   message: string
+  address: string
+  channels: ContactChannel[]
   actions: ContactAction[]
 }
 

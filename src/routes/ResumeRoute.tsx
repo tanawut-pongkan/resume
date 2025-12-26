@@ -5,7 +5,6 @@ import { TopNav } from '@/components/layout/TopNav'
 import { CommandPalette } from '@/components/layout/CommandPalette'
 import { Footer } from '@/components/layout/Footer'
 import { Hero } from '@/components/resume/Hero'
-import { PersonalDetailsSection } from '@/components/resume/PersonalDetailsSection'
 import { WorkExperienceSection } from '@/components/resume/WorkExperienceSection'
 import { InternshipSection } from '@/components/resume/InternshipSection'
 import { EducationSection } from '@/components/resume/EducationSection'
@@ -16,6 +15,7 @@ import { CertificationsSection } from '@/components/resume/CertificationsSection
 import { AchievementsSection } from '@/components/resume/AchievementsSection'
 import { LanguagesSection } from '@/components/resume/LanguagesSection'
 import { ContactSection } from '@/components/resume/ContactSection'
+import { SectionNavigator } from '@/components/resume/SectionNavigator'
 import { useResume } from '@/providers/resume-provider'
 import { useSettings } from '@/providers/settings-provider'
 import { useToast } from '@/components/ui/use-toast'
@@ -87,7 +87,19 @@ export function ResumeRoute() {
       <TopNav navItems={resume.nav} onOpenCommandPalette={() => setCommandOpen(true)} />
       <main>
         <Hero hero={resume.hero} onDownload={handleDownload} onContact={handleContact} onPrint={handlePrint} />
-        <PersonalDetailsSection data={resume.personal} copy={resume.ui.copy} />
+        <SectionNavigator
+          sections={[
+            { id: resume.experience.id, label: resume.experience.label },
+            { id: resume.internships.id, label: resume.internships.label },
+            { id: resume.skills.id, label: resume.skills.label },
+            { id: resume.abilities.id, label: resume.abilities.label },
+            { id: resume.projects.id, label: resume.projects.label },
+            { id: resume.certifications.id, label: resume.certifications.label },
+            { id: resume.achievements.id, label: resume.achievements.label },
+            { id: resume.languages.id, label: resume.languages.label },
+            { id: resume.contact.id, label: resume.contact.label },
+          ]}
+        />
         <WorkExperienceSection data={resume.experience} />
         <InternshipSection data={resume.internships} />
         <EducationSection data={resume.education} />

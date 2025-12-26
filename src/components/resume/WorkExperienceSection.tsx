@@ -9,22 +9,29 @@ interface WorkExperienceSectionProps {
 export function WorkExperienceSection({ data }: WorkExperienceSectionProps) {
   return (
     <Section id={toKebabCase(data.id)} title={data.label} summary={data.summary}>
-      <ol className="divide-y divide-slate-200 dark:divide-slate-700">
+      <ol className="grid gap-6">
         {data.items.map((item) => (
-          <li key={`${item.company}-${item.role}`} className="py-8 first:pt-0 last:pb-0">
-            <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
+          <li
+            key={`${item.company}-${item.role}`}
+            className="rounded-2xl border border-slate-200/80 bg-white/80 p-6 shadow-md dark:border-slate-800 dark:bg-slate-900/70"
+          >
+            <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
               <div className="space-y-1">
-                <h3 className="text-[1.25rem] font-semibold text-slate-900 dark:text-white">{item.role}</h3>
+                <div className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-3 py-1 text-[12px] font-semibold uppercase tracking-[0.16em] text-accent">
+                  {data.timelineLabel}
+                </div>
+                <h3 className="text-[1.2rem] font-semibold text-slate-900 dark:text-white">{item.role}</h3>
                 <p className="text-sm font-medium text-slate-500">{item.company} · {item.location}</p>
               </div>
-              <div className="text-sm text-slate-500">
-                <span className="font-medium text-slate-600 dark:text-slate-300">{item.period.durationLabel}</span>
-                <div>{formatDateRange({ start: item.period.start, end: item.period.end })}</div>
+              <div className="rounded-xl bg-slate-50 px-3 py-2 text-sm font-medium text-slate-600 dark:bg-slate-800/70 dark:text-slate-200">
+                <div>{item.period.durationLabel}</div>
+                <div className="text-xs font-normal text-slate-500 dark:text-slate-400">
+                  {formatDateRange({ start: item.period.start, end: item.period.end })}
+                </div>
               </div>
             </div>
             <p className="mt-4 text-[0.98rem] leading-relaxed text-slate-600 dark:text-slate-300">{item.summary}</p>
-            <p className="mt-3 text-xs font-semibold uppercase tracking-[0.24em] text-slate-400 dark:text-slate-500">{data.timelineLabel}</p>
-            <ul className="mt-3 space-y-2 text-[0.95rem] leading-relaxed text-slate-600 dark:text-slate-300">
+            <ul className="mt-4 space-y-2 text-[0.95rem] leading-relaxed text-slate-600 dark:text-slate-300">
               {item.achievements.map((achievement) => (
                 <li key={achievement} className="flex gap-2">
                   <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 rounded-full bg-accent" />
