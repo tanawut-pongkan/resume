@@ -227,6 +227,8 @@ export interface ContactSection {
   label: string
   summary: string
   message: string
+  address: string
+  channels: ContactChannel[]
   actions: ContactAction[]
 }
 

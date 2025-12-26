@@ -13,10 +13,14 @@ export const resumeEn: ResumeData = {
       'IT project leader with 9+ years of agile delivery, business process optimisation, and cross-functional team guidance.',
   },
   nav: [
-    { id: 'personal', label: 'Personal Details' },
     { id: 'experience', label: 'Work Experience' },
-    { id: 'education', label: 'Education' },
+    { id: 'internships', label: 'Internship' },
     { id: 'skills', label: 'Skills' },
+    { id: 'abilities', label: 'Strengths' },
+    { id: 'projects', label: 'Key Projects' },
+    { id: 'certifications', label: 'Certifications' },
+    { id: 'achievements', label: 'Achievements' },
+    { id: 'languages', label: 'Languages' },
     { id: 'contact', label: 'Contact' },
   ],
   hero: {
@@ -322,7 +326,26 @@ export const resumeEn: ResumeData = {
     id: 'contact',
     label: 'Contact',
     summary: 'Ready to discuss how I can support your next project.',
-    message: 'Feel free to reach out for project coordination, analysis, or development support.',
+    message: 'Reach out for project coordination, analysis, or development support.',
+    address: '40/65 Moo 2, Tambon Klangluang, Klongluang, Pathum Thani 12120 · Thailand',
+    channels: [
+      {
+        label: 'Email',
+        value: 'tanawut.pongkan@gmail.com',
+        href: 'mailto:tanawut.pongkan@gmail.com',
+        icon: 'mail',
+        copyHint: 'Copy email',
+        copiedToast: 'Email copied to clipboard',
+      },
+      {
+        label: 'Phone',
+        value: '+66-95-474-9426',
+        href: 'tel:+66954749426',
+        icon: 'phone',
+        copyHint: 'Copy phone number',
+        copiedToast: 'Phone number copied',
+      },
+    ],
     actions: [
       {
         label: 'Email Tanawut',
